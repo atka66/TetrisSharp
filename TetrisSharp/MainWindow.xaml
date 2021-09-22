@@ -1,0 +1,17 @@
+﻿<Window x:Class="TetrisSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TetrisSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="640">
+    <Grid>
+        <Canvas Name="canvasField" Width="160" Height="320" Margin="240,40,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Black"/>
+        <Label Content="Next piece:" HorizontalAlignment="Left" Margin="486,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="112,72,0,0" VerticalAlignment="Top"/>
+        <Label Name="labelScore" Content="SCORE" HorizontalAlignment="Left" Margin="112,94,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+        <Canvas Name="canvasNextPiece" Width="64" Height="64" Margin="486,104,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Black"/>
+
+    </Grid>
+</Window>
